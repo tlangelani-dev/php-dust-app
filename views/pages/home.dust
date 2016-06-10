@@ -1,0 +1,11 @@
+{>"views/layouts/master"/}
+
+{<content}
+    <ul>
+        {#languages}
+            <li>{.}</li>
+        {:else}
+            <li>No languages found!</li>
+        {/languages}
+    </ul>
+{/content}

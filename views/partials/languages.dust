@@ -1,0 +1,7 @@
+{>"views/layouts/master"/}
+
+{<content}
+    {#languages}
+        {.}{@sep},{/sep}
+    {/languages}
+{/content}
